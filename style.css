@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    width: 100%;
+    font-family: verdana, gevena, tahoma, sans-serif;
+}
+
+header {
+    background: linear-gradient(rgba(0, 110, 255, 0.993), rgb(255, 0, 221));
+    color: rgb(255, 255, 255);
+    text-align: center;
+    position: sticky;
+    top: 0;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+    text-shadow: rgb(0, 0, 0) 1px 0 10px;
+    z-index: 1;
+}
+
+.logo img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 30px;
+}
+
+.logo h2 {
+    margin: 0;
+    font-size: 1em;
+    font-weight: bold;
+    color: aliceblue;
+    font-family: monospace;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+
+}
+
+#home {
+    background: linear-gradient(0deg, rgba(93, 153, 221, 0.247), rgba(58, 49, 49, 0.219)), url("technologies-information.webp");
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#about {
+    margin: 30px;
+    padding: 50px;
+    background: rgba(172, 168, 168, 0.226);
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+
+.skills {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    flex-direction: column;
+    height: 20%;
+}
+
+.about-me {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+
+}
+
+.contact-info{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    flex-direction: column;
+    
+}
